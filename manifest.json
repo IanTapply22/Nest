@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "Nest",
+  "name": "Nest",
+  "author": "Gucci Fox",
+  "version": "0.0.1",
+  "description": "Tournament software suite designed for modded Beat Saber ",
+  "gameVersion": "1.40.0",
+  "dependsOn": {
+    "BSIPA": "^4.2.0"
+  }
+}
