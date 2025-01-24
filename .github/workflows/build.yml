@@ -4,9 +4,6 @@ name: Build
 on:
   push:
     branches: [ "main" ]
-    paths:
-    - .github/workflows/build.yml
-    - Nest.sln
 
 jobs:
   build:
