@@ -35,6 +35,7 @@ namespace Nest
             GameObject.DontDestroyOnLoad(this); // Don't destroy this object on scene changes
             Instance = this;
             Plugin.Log?.Debug($"{name}: Awake()");
+
         }
         /// <summary>
         /// Only ever called once on the first frame the script is Enabled. Start is called after any other script's Awake() and before Update().
